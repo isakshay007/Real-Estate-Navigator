@@ -58,9 +58,9 @@ def analyzr():
     path = path[0]
 
     dataframe = DataConnector().fetch_dataframe_from_csv(file_path=Path(path))
-    analyzr = DataAnalyzr(df=dataframe, api_key=st.secrets["apikey"])
+    analyzr_instance = DataAnalyzr(df=dataframe, api_key=st.secrets["apikey"])
 
-    return analyzr
+    return analyzr_instance
 
 def file_checker():
     file = []
