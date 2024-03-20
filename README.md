@@ -1,4 +1,4 @@
-# Welcome to the Automate EDA by Lyzr!
+# Welcome to the Real Estate Navigator by Lyzr!
 
 ![Lyzr Logo](./logo/lyzr-logo.png)
 
